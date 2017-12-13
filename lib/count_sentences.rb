@@ -5,7 +5,7 @@ class String
   def sentence?
     puts self
      if self.end_with?(".")
-       true
+      return true
      end
       false
   end
